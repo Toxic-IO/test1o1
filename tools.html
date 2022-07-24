@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Tools - HACKTRONIAN</title>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/font/font-awesome.css">
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.ico">
+</head>
+
+<body class="header-fixed inner-page about">
+
+    <!-- preloade -->
+    <div class="preload preload-container"><div class="preload-logo"></div></div>
+
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header_main" class="header">
+            <div class="container">
+                <div id="site-header-inner">
+                    <div class="header__logo">
+                        <a href="/"><img src="assets/images/logo/logo.png" alt=""></a>
+                    </div>
+                    <nav id="main-nav" class="main-nav">
+                        <ul id="menu-primary-menu" class="menu">
+                            <li class="menu-item"><a href="/">Home</a></li>
+                            <li class="menu-item"><a href="resources.html">Resource</a></li>
+                            <li class="menu-item"><a href="training.html">Training</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="#services">Services</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="services/vulnerability-assessment-and-penetration-testing.html">VAPT / Red Team</a></li>
+                                    <li class="menu-item"><a href="services/web-development.html">Web Development</a></li>
+                                    <li class="menu-item"><a href="services/cybersecurity-workshop.html">Workshop</a></li>
+                                    <li class="menu-item"><a href="services/live-taining.html">Live Training</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item current-menu-item"><a href="tools.html">Tools</a></li>
+                            <li class="menu-item"><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <a class="tf-button btn-effect" href="contact.html">
+                        <span class="boder-fade"></span>
+                        <span class="effect">Contact Us</span>
+                    </a>
+                    <div class="mobile-button"><span></span></div>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrumbs" data-aos="zoom-in" data-aos-duration="800">
+                            <h3>Tools</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="tf-section tf-about style2 pb-mobie">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content-about m-b60 mobie-40" data-aos="fade-up" data-aos-duration="800">
+                            <div class="tf-title">
+                                <p class="h8 sub-title">FREE & OPEN-SOURCE CYBERSECURITY TOOLS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="wrap-about style2 m-b48" data-aos="fade-up" data-aos-duration="800">
+                            <div class="box-text corner-box active">
+                                <div class="h7">Secure Password Genrator</div>
+                                <p>Create 16 digit random password in just 1 click.</p>
+                                <br>
+                                <p><input style="padding: 10px; user-select: none; width: 320px; font-size: 20px; color: #00CC99; background: #2D2D32;" type="text" name="" placeholder="Create Password" id="password" readonly></p>
+                                <br>
+                                <p>
+                                    <a onclick="genPassword()" class="tf-button st2 btn-effect" href="#generate"><span class="boder-fade"></span><span class="effect">Generate</span></a>
+                                    <a onclick="copyPassword()" class="tf-button st2 btn-effect" href="#copy"><span class="boder-fade"></span><span class="effect">Copy</span></a>
+                                </p>
+                            </div>
+                            <div class="box-text corner-box">
+                                <div class="h7">Bug Hunter</div>
+                                <p>A Collection of Information Gathering, Mapping, Discovery and Exploitation Tools for Bug Hunting.</p>
+                                <br>
+                                <p>
+                                    <a class="tf-button st2 btn-effect" href="https://github.com/thehackingsage/bughunter" target="_blank"><span class="boder-fade"></span><span class="effect">GitHub</span></a>
+                                </p>
+                            </div>
+                            <div class="box-text corner-box">
+                                <div class="h7">Hackdroid</div>
+                                <p>Hackdroid is a collection of pentesting and security related apps for android. The applications are divided into different categories so you can easily download any application from any category and use them for penetration testing and ethical hacking.</p>
+                                <br>
+                                <p>
+                                    <a class="tf-button st2 btn-effect" href="https://github.com/thehackingsage/hackdroid" target="_blank"><span class="boder-fade"></span><span class="effect">GitHub</span></a>
+                                </p>
+                            </div>
+                            <div class="box-text corner-box">
+                                <div class="h7">HackPi</div>
+                                <p>Portable Hacking Machine with Raspberry Pi.</p>
+                                <br>
+                                <p>
+                                    <a class="tf-button st2 btn-effect" href="https://github.com/thehackingsage/hackpi" target="_blank"><span class="boder-fade"></span><span class="effect">GitHub</span></a>
+                                </p>
+                            </div>
+                            <div class="box-text corner-box">
+                                <div class="h7">Pwn Phone</div>
+                                <p>The Dream Device for Hackers.</p>
+                                <br>
+                                <p>
+                                    <a class="tf-button st2 btn-effect" href="https://github.com/thehackingsage/pwnphone" target="_blank"><span class="boder-fade"></span><span class="effect">GitHub</span></a>
+                                </p>
+                            </div>
+                            <div class="box-text corner-box">
+                                <div class="h7">Kali Nethunter</div>
+                                <p>Kali NetHunter is a free & Open-source Mobile Penetration Testing Platform for Android devices, based on Kali Linux.</p>
+                                <br>
+                                <p>
+                                    <a class="tf-button st2 btn-effect" href="https://github.com/thehackingsage/kali-nethunter" target="_blank"><span class="boder-fade"></span><span class="effect">GitHub</span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer id="footer">
+            <div class="footer-main">
+                <img src="assets/images/footer/1.png" alt="" class="bg1">
+                <img src="assets/images/footer/2.png" alt="" class="bg2">
+                <div class="container">
+                <ul class="widget-social">
+                    <li><a href="https://github.com/thehackingsage" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://instagram.com/thehackingsage" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/thehackingsage" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://youtube.com/hacktronian" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=919044264043" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://telegram.me/thehackingsage" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                </ul>
+                <h5 class="heading">Lets Work Together</h5>
+                <p>we are here to assist you with your queries.</p>
+                <div class="col-md-12">
+                    <div class="btn-about center mt-48" data-aos="fade-up" data-aos-duration="800">
+                        <a class="tf-button st2 btn-effect" href="contact.html">
+                            <span class="boder-fade"></span>
+                            <span class="effect">Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="wrap-fx">
+                    <div class="Copyright">
+                        <p>&#169; HACKTRONIAN <script>document.write(new Date().getFullYear());</script> / All Rights Reserved</p>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    </div><a id="scroll-top"></a>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/jquery-validate.js"></script>
+    <script src="https://hacktronian.in/assets/js/passgen.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"72fb78f06d942e8f","version":"2022.6.0","r":1,"token":"c64382f7b4484d91b7a9fa12b2c8d332","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
